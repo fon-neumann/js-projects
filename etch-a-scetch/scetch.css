@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 960px;
+
+  }
+
+  .square {
+    flex-basis: calc(100% / 16);
+  height: 0;
+  padding-bottom: calc(100% / 16);
+    border: 1px solid #111;
+    background-color: grey;
+    transition: black 0.7s ease-in-out;
+  }
+
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
