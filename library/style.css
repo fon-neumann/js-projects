@@ -1,0 +1,98 @@
+body {
+    background-color: rgba(254, 249, 182, 0.781);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #new-book-btn {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  #form-container {
+    display: none;
+    margin-bottom: 20px;
+  }
+  
+  #form-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  #add-book-form {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 10px;
+  }
+  
+  #add-book-form label {
+    display: flex;
+    align-items: center;
+  }
+  
+  #add-book-form input[type="text"],
+  #add-book-form input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #add-book-form label[for="read"],#add-book-form input[type="checkbox"] {
+    justify-self: left;
+  }
+  
+  #add-book-form button[type="submit"] {
+    justify-self: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  #add-book-form button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  #book-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #book-table th,
+  #book-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #book-table th {
+    background-color: #f2f2f2;
+  }
+  
+  #book-table td button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: gray;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0
+  }
+  #new-book-btn:hover, #book-table td button:hover {
+    background-color: darkslategrey;
+color: white;
+  }
